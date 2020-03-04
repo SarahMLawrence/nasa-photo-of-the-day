@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.post-thumb{
+  width: 500px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -29,8 +32,14 @@
 }
 .photo-card{
   margin: 30px;
+  margin-left: 30%;
   background-color: aqua;
   padding: 10px;
+  width: 500px;
+  }
+
+  .exp{
+    text-align: center;
   }
   h2 {
     color: #474747;
