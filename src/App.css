@@ -27,6 +27,19 @@
 .App-link {
   color: #61dafb;
 }
+.photo-card{
+  margin: 30px;
+  background-color: aqua;
+  padding: 10px;
+  }
+  h2 {
+    color: #474747;
+    font-size: 25px;
+    background: #2eb29a;
+    margin: 0;
+    padding: 10px;
+  }
+  
 
 @keyframes App-logo-spin {
   from {

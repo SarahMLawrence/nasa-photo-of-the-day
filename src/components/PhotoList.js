@@ -2,7 +2,7 @@ import React, {useState, useEffect}from "react";
 import axios from "axios";
 
 import PhotoCard from "./PhotoCard";
-import Video from "../components/Nasa";
+//import Video from "../components/Nasa";
 
 function PhotoList() {
  
@@ -28,19 +28,18 @@ function PhotoList() {
          title={photo.title}
          date={photo.date}
          explanation={photo.explanation}
-
+         hdurl={photo.hdurl}
+         src={photo.url}
+         media_type={photo.media_type}
           />
-          <Video
-          src={photo.url}
-          media_type={photo.media_type}
-          hdurl={photo.hdurl}
-          />
+         
         </div>
         
     );
 
     
- 
+    
+  
   
 }
 
