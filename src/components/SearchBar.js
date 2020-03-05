@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "./assets/logo.png";
+import logo from "../assets/logo.png";
 
 const SearchBar = ({ setSearchTerms, searchPost }) => {
     const onEnterKeyDown = (e) => {
@@ -16,7 +16,7 @@ const SearchBar = ({ setSearchTerms, searchPost }) => {
         <form className="search-form">
           <i className="fas fa-search" />
           <input
-            type="text"
+            type="date"
             placeholder="Search"
             onChange={(e) => setSearchTerms(e.target.value)}
             onKeyDown={(e) => {e.key ==='Enter' && onEnterKeyDown(e)}}

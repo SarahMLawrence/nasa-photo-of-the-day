@@ -1,14 +1,11 @@
 import React from "react";
-//import Video from "../components/Nasa";
 
-
-
-const PhotoCard = props => {
+const VideoCard = props => {
     return (
         
-        <div class="card" style={{width: '60rem', marginLeft: '30rem', padding: '1.5rem'}} >
+        <div class="card" style={{width: '40rem', border: 'solid', alignContent: 'center'}} >
         <img
-            style={{marginLeft: '15rem', padding: '20px'}}
+            style={{marginLeft: '40px', padding: '10px'}}
             class="card-img-top"
             alt="photo day"
             className="post-thumb"
@@ -23,9 +20,8 @@ const PhotoCard = props => {
         </div>
 
     </div>
-    
        
     );
 };
-export default PhotoCard;
+export default VideoCard;
 
