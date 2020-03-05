@@ -5,10 +5,11 @@ import SearchBar from "./components/SearchBar";
 import VideoList from "./components/VideoList";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import back from "./assets/back.jpg";
 function App() {
   return (
-    <div className="App">
+    <div className="App" backgroundImage='{back}'>
+
       <SearchBar />
       <PhotoList />
     <VideoList />

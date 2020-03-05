@@ -6,7 +6,7 @@ import React from "react";
 const PhotoCard = props => {
     return (
         
-        <div class="card" style={{width: '60rem', marginLeft: '30rem', padding: '1.5rem'}} >
+        <div class="card" style={{width: '60rem', alignContent: 'center', padding: '1.5rem'}} >
         <img
             style={{marginLeft: '15rem', padding: '20px'}}
             class="card-img-top"
