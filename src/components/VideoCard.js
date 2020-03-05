@@ -1,6 +1,10 @@
 import React from "react";
 
+
 const VideoCard = props => {
+
+ 
+
     return (
         
         <div class="card" style={{width: '40rem', border: 'solid', alignContent: 'center'}} >
