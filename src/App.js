@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import space from "./assets/space.jpg";
 function App() {
   return (
-    <div className="App" style={{ backgroundImage: `url(${space})`, width: '.5 rem'}}>
+    <div className="App" style={{ backgroundImage: `url(${space})`, backgroundSize: '190rem'}}>
 
       <SearchBar />
       <PhotoList />
