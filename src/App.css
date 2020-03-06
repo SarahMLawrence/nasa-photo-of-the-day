@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.post-thumb{
+  width: 500px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -27,6 +30,25 @@
 .App-link {
   color: #61dafb;
 }
+.photo-card{
+  margin: 30px;
+  margin-left: 30%;
+  background-color: aqua;
+  padding: 10px;
+  width: 500px;
+  }
+
+  .exp{
+    text-align: center;
+  }
+  h2 {
+    color: #474747;
+    font-size: 25px;
+    background: #2eb29a;
+    margin: 0;
+    padding: 10px;
+  }
+  
 
 @keyframes App-logo-spin {
   from {
